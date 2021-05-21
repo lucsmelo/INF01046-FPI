@@ -38,7 +38,7 @@ def UndoTransformation(img):
 
 #Save an image using opencv library
 def SaveImage(img):
-    cv.imwrite("results/Hybrid.jpg", np.abs(img))
+    cv.imwrite("result/hybrid.jpg", np.abs(img))
     
 #Resize the second image with the dimensions of the first image
 def ResizeBaseSecImgImage(BaseFirstImg,BaseSecImg):
